@@ -1,0 +1,12 @@
+apiVersion: scality.pod-ui.com/v1alpha1
+kind: PodUI
+metadata:
+  labels:
+    app.kubernetes.io/name: podui
+    app.kubernetes.io/instance: podui-sample
+    app.kubernetes.io/part-of: pod-ui
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: pod-ui
+  name: podui-sample
+spec:
+  # TODO(user): Add fields here
